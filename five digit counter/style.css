@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#upper-container{
+    width:100%;
+    height: 200px;
+    background-color: cyan;
+    position: relative;
+    /* display: flex; */
+    padding: 40px ;
+    margin: 50px 0 ;
+    background-image: linear-gradient(45deg, #a4f2f2, #efa7d7);
+text-align: center;
+}
+#upper-container h1{
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+}
+#input-range{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+ 
+}
+#input-range input{
+    padding: 10px;
+    width: 30%;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    color: #4914e9;
+
+}
+#input-range input:focus{
+    outline: none;
+}
+#input-range button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 5px 20px white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#counter-container{
+    width: 80%;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.counter{
+    display: inline-block;
+    background-color:aliceblue;
+    width: 15%;
+    height: 80px;
+    max-width: 80px;
+    margin: auto 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px white;
+}
+.counter p{
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    line-height: 80px;
+    border-top: 2px solid black;
+    background-color: aliceblue;
+}
+p.next{
+    position: absolute;
+    top: 80%;
+}
+p.animate{
+    transition-duration: 0.5s;
+    top: 0px;
+}
