@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+#box{
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    background-color: aquamarine;
+    font-size: 2vh;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    top: 20%;
+    left: 20%;
+}
