@@ -1,0 +1,45 @@
+/* here we appay style on body */
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+/* here we set  the container style */
+#container{
+    position: relative;
+}
+/* here we edit the ball and appaly style  */
+#ball{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    left: 52%;
+    border-radius: 50%;
+
+}
+/* here we made rod1 & rod2  */
+#rod1,#rod2{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+/* here we edit rod1 */
+#rod1{
+    border: 2px solid orange;
+    background-color: palegreen;
+    top: 0px;
+
+}
+/* here we edit rod2 */
+#rod2{
+    border: 2px solid orange;
+    background-color: palegreen;
+    bottom: 0px;
+}
